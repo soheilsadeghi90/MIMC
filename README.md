@@ -1,6 +1,6 @@
 # MIMC: Modal Identification using Matrix Completion
 
-This repo contains a brief tutorial of the MIMC algorithm for bridge system identification using mobile sensing network
+This repo contains a brief tutorial of the MIMC algorithm for bridge system identification using mobile sensing network.
 
 To run the notebook, make sure that the dependencies are installed. The most important ones:
   - Tensorflow
@@ -15,6 +15,12 @@ The second part performs the structured optimization to extract modal properties
 For more information, please refer to this published paper:
 
 https://ascelibrary.org/doi/full/10.1061/%28ASCE%29EM.1943-7889.0001733
+
+## Files
+
+Notebook.ipynb: this is the notebook that you use for testing the algorithm. It's quite self-explanatory. 
+Accel_42.txt: a sample input file containing a bridge respose at 5,000 DOFs in 5,000 time samples (5K \times 5K matrix). Feel free to replace it with your files.
+utilities: contains utility functions needed to run the notebook. Algorithms are implemented here. You may find the implementation details from the papers below. 
 
 ## References
 
