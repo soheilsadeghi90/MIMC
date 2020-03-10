@@ -18,11 +18,11 @@ https://ascelibrary.org/doi/full/10.1061/%28ASCE%29EM.1943-7889.0001733
 
 ## Files
 
-Notebook.ipynb: this is the notebook that you use for testing the algorithm. It's quite self-explanatory. 
+**Notebook.ipynb**: this is the notebook that you use for testing the algorithm. It's quite self-explanatory. 
 
-Accel_42.txt: a sample input file containing a bridge respose at 5,000 DOFs in 5,000 time samples (5K x 5K matrix). Feel free to replace it with your files.
+**Accel_42.txt**: a sample input file containing a bridge respose at 5,000 DOFs in 5,000 time samples (5K x 5K matrix). Feel free to replace it with your files.
 
-utilities: contains utility functions needed to run the notebook. Algorithms are implemented here. You may find the implementation details from the papers below. 
+**utilities.pyc**: contains utility functions needed to run the notebook. Algorithms are implemented here. You may find the implementation details from the papers below. 
 
 ## References
 
